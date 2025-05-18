@@ -1,0 +1,5 @@
+# Format: SYMBOL,PRIMARY_EXCHANGE,SECONDARY_EXCHANGE
+XAUT/USDT,bybit,mexc
+SUI/USDT,binance,mexc
+APT/USDT,binance,mexc
+PEPE/USDT,binance,bybit
