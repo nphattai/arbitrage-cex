@@ -23,12 +23,24 @@ interface Prices {
 }
 
 const exchanges: Record<string, ccxt.Exchange> = {
-  binance: new ccxt.pro.binance(),
-  bitget: new ccxt.pro.bitget(),
-  mexc: new ccxt.pro.mexc(),
-  bitfinex: new ccxt.pro.bitfinex(),
-  bitmex: new ccxt.pro.bitmex(),
-  bybit: new ccxt.pro.bybit(),
+  binance: new ccxt.pro.binance({
+    options: { watchOrderBook: { checksum: false } },
+  }),
+  bitget: new ccxt.pro.bitget({
+    options: { watchOrderBook: { checksum: false } },
+  }),
+  mexc: new ccxt.pro.mexc({
+    options: { watchOrderBook: { checksum: false } },
+  }),
+  bitfinex: new ccxt.pro.bitfinex({
+    options: { watchOrderBook: { checksum: false } },
+  }),
+  bitmex: new ccxt.pro.bitmex({
+    options: { watchOrderBook: { checksum: false } },
+  }),
+  bybit: new ccxt.pro.bybit({
+    options: { watchOrderBook: { checksum: false } },
+  }),
 };
 
 const prices: Prices = {

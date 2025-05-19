@@ -1,5 +1,10 @@
 # Format: SYMBOL,PRIMARY_EXCHANGE,SECONDARY_EXCHANGE
-XAUT/USDT,bybit,mexc
-SUI/USDT,binance,mexc
-APT/USDT,binance,mexc
-PEPE/USDT,binance,bybit
+XAUT/USDT,bybit,bitfinex
+SUI/USDT,binance,bitfinex
+APT/USDT,binance,bitfinex
+PEPE/USDT,binance,bitfinex
+XRP/USDT,binance,bitfinex
+DOGE/USDT,binance,bitfinex
+SHIB/USDT,binance,bitfinex
+WIF/USDT,binance,bitfinex
+FLOKI/USDT,binance,bitfinex
