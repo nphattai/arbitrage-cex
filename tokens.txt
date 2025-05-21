@@ -1,6 +1,5 @@
 # Format: SYMBOL,PRIMARY_EXCHANGE,SECONDARY_EXCHANGE
-SUI/USDT,binance,bitfinex
-APT/USDT,binance,bitfinex
-PEPE/USDT,binance,bitfinex
 XRP/USDT,binance,bitfinex
+XRP/USDT,binance,mexc
 DOGE/USDT,binance,bitfinex
+DOGE/USDT,binance,mexc
